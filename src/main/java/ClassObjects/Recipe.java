@@ -29,4 +29,41 @@ public class Recipe {
 		this.recipeSteps = recipeSteps;
 		this.madeBefore = madeBefore;
 	}
+		public String getRecipeName() {
+		return recipeName;
+	}
+	public void setRecipeName(String recipeName) {
+		this.recipeName = recipeName;
+	}
+	public ArrayList<String> getCategories() {
+		return categories;
+	}
+	public void setCategories(ArrayList<String> categories) {
+		this.categories = categories;
+	}
+	public ArrayList<String> getIngredients() {
+		return ingredients;
+	}
+	public void setIngredients(ArrayList<String> ingredients) {
+		this.ingredients = ingredients;
+	}
+	public ArrayList<String> getRecipeSteps() {
+		return recipeSteps;
+	}
+	public void setRecipeSteps(ArrayList<String> recipeSteps) {
+		this.recipeSteps = recipeSteps;
+	}
+	public int getRecipeTime() {
+		return recipeTime;
+	}
+	public void setRecipeTime(int recipeTime) {
+		this.recipeTime = recipeTime;
+	}
+	public boolean isMadeBefore() {
+		return madeBefore;
+	}
+	public void setMadeBefore(boolean madeBefore) {
+		this.madeBefore = madeBefore;
+	}
+}
 }
